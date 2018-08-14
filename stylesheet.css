@@ -26,7 +26,7 @@ a:link, a:visited  { /* colons => selectors */
     /* :link selects all UN-visited links */
     /* :visited  selects all visited links */
     display: block;
-    width: 100px; /* set width */
+    width: 150px; /* set width */
     font-weight: bold;
     color: #FFFFFF;
     background-color: #526652;

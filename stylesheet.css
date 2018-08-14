@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    background-color: #D6FFD6; 
+}
+
+body{
+    background-color: #D6FFD6; /* changes color of entier page */
+}
+
+ul { /* un-ordered list*/
+    list-style-type: none; /* remove bullets*/
+    margin: 0; /* removes browser default settings */
+    padding: 0; /* ditto */
+    overflow: hidden; /* prevents elements from going outside the list*/
+    text-align: center;
+}
+
+li { 
+    /* display: inline; */ /* set for horizontal nav bar */
+    /*float: left; */ /* behavior needs explaination, atm, smooshes text together */
+    /*above is replaced by what's below*/
+    display: inline-block; /* centers the nice list of horizontal links */ 
+}
+
+a:link, a:visited  { /* colons => selectors */
+    /* :link selects all UN-visited links */
+    /* :visited  selects all visited links */
+    display: block;
+    width: 100px; /* set width */
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #526652;
+    text-align: center;
+    padding: 4px; /* note shorthand, pads top bot left and right all at once */
+    text-decoration: none; /* options: overline, line-through, underline */
+    text-transform: uppercase; /* lowercase, capitalize */
+}
+
+a:hover, a:active { /* colons here denote selectors in CSS */
+    /* :hover selects links on mouse over */
+    /* :active selects the active link */
+    background-color: #293329;
+}
+
+img {
+    display: block;
+    margin-left: auto; /* centers img horizontally */
+    margin-right: auto; /* centers img horizontally */
+    padding: 8px;
+    height: 30%;
+    width: 30%;
+}
